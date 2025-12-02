@@ -1,3 +1,122 @@
 @charset "UTF-8";
 /* CSS Document */
 body {	margin: 0; }
+
+/* ---------------------- */
+/* GENERAL STYLES */
+/* ---------------------- */
+body {
+  font-family: "Futura", "Arial Rounded MT Bold", sans-serif;
+  background: white;
+  color: #4a2b2b;
+}
+
+/* ---------------------- */
+/* HEADER / NAVIGATION */
+/* ---------------------- */
+.header {
+    display: flex;
+    justify-content: space-between; /* logo left, links right */
+    align-items: center; /* <-- THIS centers logo + links vertically */
+    padding: 20px;
+}
+
+.logo {
+    height: 1000px; /* whatever your size is */
+    margin-top: -900px;
+     align-items:  center;
+    
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+}
+
+nav a {
+  margin: 0 20px;
+  padding: 8px 20px;
+  background: #c08c81;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  
+ 
+}
+
+.nav-links {
+    margin-top: 500px;   /* moves the whole group down */
+}
+
+
+nav a:hover {
+  background: #b07c72;
+}
+
+/* ---------------------- */
+/* HERO SECTION */
+/* ---------------------- */
+
+.hero {
+  background: #c08c81;
+  padding: 700px 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.est-text {
+    font-size: 22px;
+    color: white;
+    background-color:#4a2b2b; /* pick your bubble color */
+    padding: 20px;             /* space around the text */
+    border-radius: 50%;        /* makes it a circle */
+    display: inline-block;     /* needed for circle shape */
+    text-align: center;
+    margin-top: -200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.logo-container {
+    text-align: center;
+    margin-top: 500px; /* move up or down */
+}
+
+
+.logo {
+    display: block;   /* makes alignment work properly */
+    margin: 60 auto 0 0; /* pushes it left */
+}
+
+/* ---------------------- */
+/* FOOTER */
+/* ---------------------- */
+
+footer {
+  text-align: center;
+  padding: 40px 0 60px;
+  background: white;
+}
+
+footer .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+
