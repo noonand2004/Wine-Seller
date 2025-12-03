@@ -22,8 +22,6 @@ body {
 }
 
 .logo {
-    height: 1000px; /* whatever your size is */
-    margin-top: -900px;
      align-items:  center;
     
 }
@@ -55,10 +53,18 @@ nav a {
  
 }
 
-.nav-links {
-    margin-top: 500px;   /* moves the whole group down */
-}
 
+  
+
+#hero{
+width: 1440px;
+height: 966px;
+background-color: #b07c72;
+background-image: url(../images/LOGO_WINE!.png);
+background-repeat:no-repeat ;
+background-position: center;
+
+}
 
 nav a:hover {
   background: #b07c72;
@@ -90,7 +96,6 @@ nav a:hover {
 
 .logo-container {
     text-align: center;
-    margin-top: 500px; /* move up or down */
 }
 
 
@@ -118,5 +123,8 @@ footer p {
   margin: 5px 0;
 }
 
-
-
+main{
+    width: 1440px;
+    height: 961px;
+    background-color: #b07c72;
+}
